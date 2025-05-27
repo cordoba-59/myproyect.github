@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Actividad 01</title>
+		<link rel="stylesheet" href=".\css\styles01.css" />
+	</head>
+	<body>
+		<h1>JUICIOS</h1>
+		<p>AquÍ podras encontar los juicios y fechas que se llevaran a cabo.</p>
+		<p>Tenga en cuenta que los siguientes eventos son publicos, para los miembros de la comunidad:</p>
+		<ul>
+			<li>Casos civiles</li>
+			<li>Casos penales</li>
+			<li>Casos de familia</li>
+			<li>Sentencia Penales</li>
+			<li>Sentencia Civil</li>
+		</ul>
+		<table>
+			<tr class="head">
+				<th></th>
+				<th>Bogotá</th>
+				<th>Ibagué</th>
+				<th>Medellín</th>
+				<th>Cali</th>
+			</tr>
+			<tr>
+				<th>Casos civiles</th>
+				<td>viernes, 30 Mayo 2025<br />11am - 4pm</td>
+				<td>Domimingo, 1 Junio 2025<br />11am - 4pm</td>
+				<td>Martes, 3 Junio 2025<br />11am - 4pm</td>
+			</tr>
+			<tr class="even">
+				<th>Casos penales</th>
+				<td>Lunes, 9 Junio 2025<br />10am - 1pm</td>
+				<td>Miércoles, 11 Junio 2025<br />10am - 1pm</td>
+				<td>viernes, 13 Junio 2025<br />10am - 1pm</td>
+			</tr>
+			<tr>
+				<th>Casos de familia</th>
+				<td>Sabado, 14 Junio 2025<br />11am - 2pm</td>
+				<td>Domimingo, 15 Junio 2025<br />10am - 12am</td>
+				<td>Lunes, 16 Junio 2025<br />11am - 2pm</td>
+			</tr>
+			<tr class="even">
+				<th>Nuevas Corrientes</th>
+				<td>Sat, 4 Ago 2023<br />11am - 4pm</td>
+				<td>Sat, 8 Sep 2023<br />11am - 4pm</td>
+				<td>Sat, 15 Sep 2023<br />11am - 4pm</td>
+			</tr>
+		</table>
+		<form action="actividad_02.html" method="get">
+			<fieldset>
+				<legend>Registrese en el taller de su interes:</legend>
+				<p><label class="title" for="name">Su Nombre:</label>
+					 <input type="text" name="name" id="name"><br />
+					 <label class="title" for="email">Su correo:</label>
+					 <input type="text" name="email" id="email"></p>
+				<p><label for="location" class="title">Su centro cercano:</label>
+					 <select name="location" id="location">
+						 <option value="bo">Bogotá</option>
+						 <option value="ib">Ibagué</option>
+						 <option value="me">Medellín</option>
+						 <option value="ca">Cali</option>
+					 </select></p>
+				<span class="title">Es Miembro de la Comunidad?</span>
+				<label><input type="radio" name="member" value="si" /> Si</label>
+				<label><input type="radio" name="member" value="no" /> No</label></p>
+			</fieldset>
+ 	    <div class="submit"><input type="submit" value="Registro" /></div>
+		</form>
+	</body>
+</html>
